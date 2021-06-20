@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://github.com/rajeshkannan117/pwatdeploy/index.html",
+  "index": "/pwatdeploy/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://github.com/rajeshkannan117/pwatdeploy/favicon.ico",
-        "https://github.com/rajeshkannan117/pwatdeploy/index.html",
-        "https://github.com/rajeshkannan117/pwatdeploy/main.d8da1365bbf43ae4a15f.js",
-        "https://github.com/rajeshkannan117/pwatdeploy/polyfills.77d2aa935bdcf01897be.js",
-        "https://github.com/rajeshkannan117/pwatdeploy/runtime.a66f828dca56eeb90e02.js",
-        "https://github.com/rajeshkannan117/pwatdeploy/styles.a662bd275e1e0e2e0f2b.css"
+        "/pwatdeploy/favicon.ico",
+        "/pwatdeploy/index.html",
+        "/pwatdeploy/main.d8da1365bbf43ae4a15f.js",
+        "/pwatdeploy/polyfills.77d2aa935bdcf01897be.js",
+        "/pwatdeploy/runtime.a66f828dca56eeb90e02.js",
+        "/pwatdeploy/styles.a662bd275e1e0e2e0f2b.css"
       ],
       "patterns": []
     },
@@ -21,34 +21,34 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-128x128.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-144x144.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-152x152.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-192x192.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-384x384.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-512x512.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-72x72.png",
-        "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-96x96.png"
+        "/pwatdeploy/assets/icons/icon-128x128.png",
+        "/pwatdeploy/assets/icons/icon-144x144.png",
+        "/pwatdeploy/assets/icons/icon-152x152.png",
+        "/pwatdeploy/assets/icons/icon-192x192.png",
+        "/pwatdeploy/assets/icons/icon-384x384.png",
+        "/pwatdeploy/assets/icons/icon-512x512.png",
+        "/pwatdeploy/assets/icons/icon-72x72.png",
+        "/pwatdeploy/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://github.com/rajeshkannan117/pwatdeploy/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://github.com/rajeshkannan117/pwatdeploy/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://github.com/rajeshkannan117/pwatdeploy/index.html": "f413c9d0786c6b011228f75a3575aad83128894e",
-    "https://github.com/rajeshkannan117/pwatdeploy/main.d8da1365bbf43ae4a15f.js": "31d8054ae4567551464cadb40d889264fb8dd36e",
-    "https://github.com/rajeshkannan117/pwatdeploy/polyfills.77d2aa935bdcf01897be.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
-    "https://github.com/rajeshkannan117/pwatdeploy/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "https://github.com/rajeshkannan117/pwatdeploy/styles.a662bd275e1e0e2e0f2b.css": "4ca6657a8f5ed9a069911b3667548efc3249c826"
+    "/pwatdeploy/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pwatdeploy/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pwatdeploy/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pwatdeploy/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pwatdeploy/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pwatdeploy/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pwatdeploy/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pwatdeploy/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pwatdeploy/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/pwatdeploy/index.html": "0a0460cf600ce66c1fdb8667d264ecf7ecdc0ec8",
+    "/pwatdeploy/main.d8da1365bbf43ae4a15f.js": "31d8054ae4567551464cadb40d889264fb8dd36e",
+    "/pwatdeploy/polyfills.77d2aa935bdcf01897be.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
+    "/pwatdeploy/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/pwatdeploy/styles.a662bd275e1e0e2e0f2b.css": "4ca6657a8f5ed9a069911b3667548efc3249c826"
   },
   "navigationUrls": [
     {
