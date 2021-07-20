@@ -1,0 +1,88 @@
+<div class="container">
+    <div ref="columns-container" class="builder-components drag-container formio-builder-components">
+    
+    <div ref="columns-container" class="builder-components drag-container formio-builder-components">
+      <div *ngFor="let form of formSchema;let i = index;">
+        <div ref="component" class="container" id="ejmratw">
+          
+          <div *ngIf="!form.input && form.type == 'content'" ref="html">
+            <div class="row">
+              <div class="col-sm-12">
+                  <p>{{ form.html }}</p>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="!form.input && form.type == 'columns'" class="row">
+          <div *ngFor="let col of form.columns" ref="column" class="col-sm-{{ 12/form.columns.length }} column-indication col-md-offset-0 col-md-push-0 col-md-pull-0">
+            <div ref="component" *ngIf="col.input && col.inputType == 'text'" class="form-group has-feedback formio-component formio-component-textfield formio-component-firstName" id="exi3kxi">
+              <label for="exi3kxi-firstName" class="col-form-label">
+                {{ col.label }}
+              </label>
+              <div ref="element">
+                <input id="exi3kxi-firstName" value="" spellcheck="true" tabindex="1" placeholder="{{ col.placeholder }}" lang="en" class="form-control" type="text" name="data[firstName]" ref="input">
+              </div>
+              <div class="formio-errors invalid-feedback" ref="messageContainer"></div>
+            </div>
+          </div>
+          </div>
+          <div *ngIf="form.input && form.type == 'textarea'" class="row">
+            <div ref="component" *ngIf="form.input && form.inputType == 'textarea'" class="col-sm-12 row-indication form-group has-feedback formio-component formio-component-textfield formio-component-firstName" id="exi3kxi">
+              <label for="exi3kxi-firstName" class="col-form-label">
+                {{ form.label }}
+              </label>
+              <div ref="element">
+                <textarea class="form-control"></textarea>
+              </div>
+              <div class="formio-errors invalid-feedback" ref="messageContainer"></div>
+            </div>
+          </div>
+        </div>
+                
+        </div>
+      </div>
+    
+      </div>
+      <div class="container">
+      
+      <div data-position="0" data-noattach="true" role="alert" style="text-align:center;" class="drag-and-drop-alert alert alert-info no-drag">
+        <div data-noattach="true" class="component-btn-group">
+          <div ref="removeComponent" class="btn btn-xxs btn-danger component-settings-button component-settings-button-remove">
+            <i class="fa fa-remove"></i>
+          </div>
+          <!-- <div ref="copyComponent" class="btn btn-xxs btn-default component-settings-button component-settings-button-copy" aria-describedby="tooltip_t261a908gr">
+            <i class="fa fa-copy"></i>
+          </div> -->
+          <div ref="pasteComponent" class="btn btn-xxs btn-default component-settings-button component-settings-button-paste">
+            <i class="fa fa-plus" (click)="openElementDialog()"></i>
+          </div>
+          <!-- <div ref="editJson" class="btn btn-xxs btn-default component-settings-button component-settings-button-edit-json" aria-describedby="tooltip_pebxlo4wte">
+            <i class="fa fa-wrench"></i>
+          </div>
+          <div ref="moveComponent" class="btn btn-xxs btn-default component-settings-button component-settings-button-move" aria-describedby="tooltip_qu4dvbr88x">
+            <i class="fa fa-arrows"></i>
+          </div>
+          <div ref="editComponent" class="btn btn-xxs btn-secondary component-settings-button component-settings-button-edit" aria-describedby="tooltip_grzj360avb">
+            <i class="fa fa-cog"></i>
+          </div> -->
+        <div class="tooltip" role="tooltip" id="tooltip_qu4dvbr88x" aria-hidden="true" x-placement="top" style="position: absolute; will-change: transform; visibility: hidden; top: 0px; left: 0px; transform: translate3d(6px, -25px, 0px);">
+          <div class="tooltip-arrow" style="left: 0px;"></div>
+          <div class="tooltip-inner">Move</div>
+        </div>
+        <div class="tooltip" role="tooltip" id="tooltip_grzj360avb" aria-hidden="true" x-placement="top" style="position: absolute; will-change: transform; visibility: hidden; top: 0px; left: 0px; transform: translate3d(-11px, -25px, 0px);">
+          <div class="tooltip-arrow" style="left: 0px;"></div>
+          <div class="tooltip-inner">Edit</div>
+        </div>
+        <div class="tooltip" role="tooltip" id="tooltip_pebxlo4wte" aria-hidden="true" x-placement="top" style="position: absolute; will-change: transform; visibility: hidden; top: 0px; left: 0px; transform: translate3d(13px, -25px, 0px);">
+          <div class="tooltip-arrow" style="left: 0px;"></div>
+          <div class="tooltip-inner">Edit JSON</div>
+        </div>
+        <div class="tooltip" role="tooltip" id="tooltip_t261a908gr" aria-hidden="true" x-placement="top" style="position: absolute; transform: translate3d(51px, -25px, 0px); top: 0px; left: 0px; will-change: transform; visibility: hidden;">
+          <div class="tooltip-arrow" style="left: 0px;"></div>
+          <div class="tooltip-inner">Copy</div>
+        </div>
+        </div>
+        Drag and Drop a form component
+      </div>
+      </div>
+
+</div>

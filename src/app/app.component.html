@@ -1,24 +1,7 @@
-<mat-toolbar  color="primary">
-  <mat-toolbar-row>
-    <span>PWA Test</span>
-    </mat-toolbar-row>
-</mat-toolbar>
-<main>
-    <mat-card *ngFor="let item of items">
-        <mat-card-header>
-            <mat-card-title>{{item.first_name}}</mat-card-title>
-        </mat-card-header>
-            <mat-card-content>
-                <img src="{{ item.avatar }}" alt="{{ item.first_name }}"/>
-                {{item.email}}
-            </mat-card-content>
-        <mat-card-actions>
-            <a  mat-raised-button color="primary">More</a>
-        </mat-card-actions>            
-    </mat-card>        
-    <mat-paginator [length]="100"
-              [pageSize]="10"
-              [pageSizeOptions]="[5, 10, 25, 100]">
-    </mat-paginator>      
+<app-header></app-header>
+
+<main role="main" class="container">
+<router-outlet></router-outlet>
 </main>
+<app-footer></app-footer>
   

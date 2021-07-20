@@ -1,0 +1,15 @@
+.drag-and-drop-alert .component-btn-group{
+    display: none;
+}
+
+.drag-and-drop-alert:hover .component-btn-group{
+    display: block;
+}
+.column-indication{
+    border:2px dotted #e8e8e8;
+    margin:4px 0px 4px 0px;
+}
+.row-indication{
+    border:2px dotted #e8e8e8;
+    margin:5px 0px 5px 0px;
+}

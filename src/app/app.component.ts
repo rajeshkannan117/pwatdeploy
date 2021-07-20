@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PageEvent } from '@angular/material';
 import { ApiService } from './api.service';
 import { Item } from './api.service';
 
@@ -10,19 +11,16 @@ import { Item } from './api.service';
 export class AppComponent implements OnInit{
   title = 'pwademo';
   items:any[] = [];
+  pageIndex = 0;
+  pageTotal:number;
+  perPage:number;
+  pageEvent: PageEvent;
+
   constructor(private apiService: ApiService){
 
   }
-  ngOnInit(){
-    this.fetchData();
+  ngOnInit(){    
+    //this.fetchData(this.pageIndex+1);
   }
-  fetchData(){
-    this.apiService.fetch().subscribe((data:any)=>{
-      
-      this.items = data.data;
-      console.log(this.items);
-    }, (err)=>{
-      console.log(err);
-    });
-  }
+  
 }

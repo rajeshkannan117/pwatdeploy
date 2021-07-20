@@ -18,12 +18,12 @@ export interface Datas{
 })
 export class ApiService {
 
-  private dataURL: string = "https://reqres.in/api/users?page=2"; 
+  private dataURL: string = "https://reqres.in/api/users?page="; 
   constructor(private httpClient: HttpClient) {
 
   }
 
-  fetch(){
-    return this.httpClient.get(this.dataURL);
+  fetch(page){
+    return this.httpClient.get(this.dataURL+page);
   }
 }
